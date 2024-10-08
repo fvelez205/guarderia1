@@ -1,0 +1,108 @@
+<!--Licenciatura en Tecnologías e Información
+Proyecto VIII
+Desarrollo del sistema web + multimedia
+Actividad 5
+Presentando avances del sito web + multimedia
+Fernando Vélez Gómez   ID 219767558
+Octavo Semestre
+Asesora: Ana Maria Ayala Varela
+28 Septiembre 2024 -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Contacto</title>
+	
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="app.css">
+
+</head>
+
+<body class="fondo">
+
+	<div class="contenedor">
+		<!-- contenedor de la cabecera donde se aloja el titulo y el logo -->
+		<div class="grid-container1">
+
+			<div>
+				<div class="img-container">
+				<img src="imagenes/logo.png" alt="logo"> 
+				</div>
+			</div>
+			<div>
+				<ul class="nav">
+					<li><a href="index.html">Inicio</a></li>
+				</ul>
+				<p style="text-align:center;font-family:verdana;font-size:90px; color:#fbff00;">¡HOLA!</p>
+			</div>
+		</div>
+				
+		<div class="contenedor">
+			
+			<div>
+				<p style="text-align:center;font-size:40px;font-family:Arial, Helvetica, sans-serif; color:#ffffff;">Escribenos a través de nuestro formulario</p>
+				
+			</div>
+
+			<form>
+	
+				<label  style="text-align:center;font-size:20px;font-family:verdana; color:#ffffff;">
+				<em>Nombre completo:</em>
+				<input type="text" name="username">
+				<span></span>
+				</label>
+				<br><br>
+				
+				
+				<label style="text-align:center;font-size:20px;font-family:verdana; color:#ffffff;">
+				<em>Correo Electronico:</em>
+				<input type="email" name="email">
+				<span></span>
+				</label>
+				<br><br>
+		
+				<label style="text-align:center;font-size:20px;font-family:verdana; color:#ffffff;">
+				<em>Telefono</em>
+				<input type="number" name="telefono">
+				<span></span>
+				</label>
+				<br><br>
+				
+				<label style="text-align:center;font-size:20px;font-family:verdana; color:#ffffff;">
+				<em>Codigo postal:</em>
+				<input type="number" name="postal">
+				<span></span>
+				</label>
+				
+				<p style="text-align:left;font-size:20px;font-family:verdana; color:#ffffff;">Género de tu hijo (a) </p>
+			
+			  <input type="radio" id="masculino" name="sexo" value="Masculino">
+			  <label for="mas" style="text-align:center;font-size:20px;font-family:verdana; color:#ffffff;">Masculino</label><br>
+			  <input type="radio" id="femenino" name="sexo" value="Femenino" >
+			  <label for="fem" style="text-align:center;font-size:20px;font-family:verdana; color:#ffffff;">Femenino</label><br><br>
+			
+			  <button id="mostrar">Seleccionaste</button><br><br>
+		
+			  <p style="text-align:left;font-size:20px;font-family:verdana; color:#ffffff;"><strong>Leer términos y condiciones</strong></p>
+			  
+			  <label for="test" style="text-align:center;left-size:20px;font-family:verdana; color:#A9A9A9;" >
+			  <input type="checkbox" name="test" id="test">He leído los términos y condiciones
+			  </label>
+			  <br>
+			  
+			  <button type='submit' onclick='confirmar_addPlanilla()' value='' name='aprobar'>Aceptar</button>
+			</form>
+		</div>
+
+		<div class="contenedor">
+			<p style="text-align:right;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color:#ffffff;">Sitio web creado:   ® Fernando Velez</p>
+			<p style="text-align:right;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color:#ffffff;">                    Proyecto VIII</p>
+		</div>
+	</div>
+<script src = 'app.js'></script>
+</body>
+</html>
+
